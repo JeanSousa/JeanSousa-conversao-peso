@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   conversao-peso: 
+    image: jeansousa/conversao-peso:v1
     build:
       context: ./ConversaoPeso.Web
       dockerfile: Dockerfile
